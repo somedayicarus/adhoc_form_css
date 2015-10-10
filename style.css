@@ -1,0 +1,374 @@
+
+.banner-img-container {
+width:600px;
+margin:0 auto;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
+h1 {
+font-size:30px;
+text-align:center;
+color: #ed2432;
+font-family: trajan-pro-3, 'Trajan Pro', 'Times New Roman', serif;
+}
+.banner {
+width:100%;
+background-color:#000;
+height:260px;
+margin-top:20px;
+}
+.banner img {
+text-align:center;
+margin:0 auto;
+width:500px;
+}
+.form-content {
+width:100%;
+}
+form {
+padding:0;
+width:600px;
+margin:0 auto;
+}
+#header-logo {
+margin-left:40px;
+}
+
+label {
+    width:16.6666% !important;
+    margin-top:10px
+}
+
+h2.section-header-container {
+padding-top:40px;
+padding-bottom:25px;
+margin:40px 0 0 10px;
+}
+#level_flexiblegift_type_Row {
+margin-bottom:40px;
+}
+.cvv-input {
+margin-bottom:40px;
+}
+.don-standard-levels.form-row {
+margin-top:-20px;
+}
+div.donation-level-input-container {
+padding:0;
+}
+input[type='text'] {
+    box-shadow:none !important;
+    -webkit-box-shadow:none !important;
+    height:45px;
+}
+
+.checked {
+background-color:#ed2432;
+color:#fff !important;
+font-weight:600;
+border:1px #ed2432 solid !important;
+}
+
+.footer {
+width:100%;
+border-top:solid 6px #dc2c30;
+color:#fff;
+background-color:#3a3a3a;
+margin-top:65px;
+}
+
+.footer-row {
+width:75%;
+margin:20px auto;
+padding:30px 0 60px 0;
+}
+
+.donation-level-user-entered {
+text-align:center;
+width:550px !important;
+}
+.donation-level-user-entered label {
+display:none;
+}
+.body-wrapper {
+    width:75px;
+    margin:0 auto;
+}
+.footer-headline {
+font-size: 28px;
+color:#fff;
+}
+.footer a {
+color:#dc2c30;
+}
+.designated-giving-recurring-row {
+    display: inline;
+}
+#level_flexibleduration_row {
+display:none;
+}
+
+input[type="radio"] {
+    opacity: 0;
+width:2px;
+}
+input[type="radio"] + label {
+    margin:0px;
+    clear: none;
+    cursor: pointer;
+    padding: 13px 20px;
+    border:#c1c1c1 1px solid;
+    border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+-o-border-radius:5px;
+    text-align:center;
+width:260px !important;
+color:#c1c1c1;
+}
+input[type="radio"]:hover + label, input[type="radio"]:checked + label {
+border:#3a3a3a solid 1px;
+color:#3a3a3a;
+}
+.donation-level-label-input-container + label {
+    border: 1px #f69198 solid;
+    text-align: center;
+    padding: 13px 20px;
+    border-radius: 6px;
+cursor:pointer;
+width:125px !important;
+color:#f69198;
+}
+label+div.donation-level-user-entered {
+display:inline;
+}
+.donation-level-user-entered input {
+    margin:-30px auto 0 auto;
+    height:48px ;
+    width:260px;
+border:1px solid #f69198 !important;
+text-align:center;
+color:#ED2431;
+position:relative;
+left:-5px;
+}
+.donation-level-user-entered input:focus {
+outline:none !important;
+border:1.5px solid #ed2433 !important;
+color:#ed2433;
+}  
+.form-donation-level div {
+width:initial;
+}
+label[for="responsive_payment_typecc_exp_date_MONTH"] {
+margin-left:10px;
+}
+.form-container {
+    padding:20px 0 20px 0;
+}
+div.donation-level-container {
+border:none;
+margin:0;
+display:inline;
+width:125px;
+}
+
+label+div.donation-level-user-entered {
+margin:0;
+}
+
+label[for="billing_addr_street2name"] {
+    margin-left: 19px;
+}
+label[for="donor_email_opt_inname"] {
+width: 378px !important;
+
+}
+
+label[for="responsive_payment_typecc_exp_date_YEAR"] {
+display:none;
+}
+
+h2, h3 {
+    font-size: 16px;
+    color: #ed2433;
+    font-family: trajan-pro-3, 'Trajan Pro', 'times new roman', serif;
+    padding:40px 0 20px 0;
+margin-bottom:25px;
+}
+
+.donation-form-container {
+    width:600px !important;
+    border:none !important;
+    margin:0 !important;
+    background: #fff !important;
+}
+
+
+
+#payment_cc_container>h3 {
+    display: none !important;
+}
+
+div#responsive_payment_typecc_type_row {
+display:none;
+}
+
+
+
+select#responsive_payment_typecc_exp_date_YEAR {
+float:right;
+}
+
+select#billing_addr_state {
+display:inline-block;
+margin-left:4.3333% !important;
+}
+
+fieldset.cardExpGroup {
+width:100%;
+margin-left:10px;
+}
+.cvv-input {
+position:relative;
+top:-15px;
+}
+
+h2:first-of-type {
+margin-bottom:25px;
+}
+
+input#responsive_payment_typecc_cvvname {
+margin-left:-2px;
+}
+
+select {
+    height:45px !important;
+    width:74.8333% !important;
+    color:#8D8D8D !important;
+    border:#c5c2bd 1px solid !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1ef+100 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,239,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(241,241,239,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1ef',GradientType=0 ); /* IE6-9 */
+}
+
+div.responsive button.action-button {
+    background:#ed2433;
+    border:none;
+    color:#fff;
+}
+
+span.label-text:before {
+    content: '*';
+color:#b5060b;
+font-size:18px;
+padding-right:3px;
+}
+div.button-container {
+    display:inline-block !important;
+width:550px;
+border-top:none;
+margin-top:0;
+padding-left:10px;
+}
+div.responsive button.step-button {
+    max-width:100%;
+}
+div.responsive button.finish-step {
+    float:none;
+    border-radius:6px;
+font-size:16px;
+font-weight:600;
+}
+button.finish-step {
+    width:600px;
+    height:60px;
+}
+div#donor_email_opt_in_Row {
+margin-left:138px;
+}
+div.responsive div.form-checkbox label {
+display:inline;
+}
+div.form-row div.form-content>input[type="text"] {
+display:inline-block;
+width: 74.8333% !important;
+margin-left:4.3333% !important;
+}
+div.date-input-container {
+display:inline-block;
+width: 74.8333% !important;
+margin-left:4.3333% !important;
+}
+select#responsive_payment_typecc_exp_date_MONTH, select#responsive_payment_typecc_exp_date_YEAR {
+width:49% !important;
+position:relative;
+top:-13px;
+}
+label.FormLabel {
+    min-width:initial;
+}
+div.payment-field-container #responsive_payment_typecc_cvv_row input {
+    width:200px !important;
+    position:relative;
+    right:88px;
+}
+.HelpLink {
+    position:relative;
+    left:240px;
+    top:5px;
+}
+a.HelpLink {
+    color:#ed2433 !important;
+    font-weight:bold;
+    letter-spacing:.6px;
+}
+legend {
+border:none;
+margin-left:10px;
+margin-bottom:10px;
+}
+div.responsive span.field-required {
+height:5px;
+width:5px;
+background-size:contain;
+vertical-align:super;
+margin-left:10px;
+}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+$('input[type=radio]:checked').parent().siblings('label').addClass('checked');
+$('#level_flexibleduration').val('M:0');
+$('.donation-level-user-entered input').attr('placeholder', 'Other');
+$('label[for=responsive_payment_typecc_numbername]').text('Card Number');
+$('label[for=responsive_payment_typecc_exp_date_MONTH] span').text('Exp. Date');
+$('label[for=responsive_payment_typecc_cvvname] span').text('Security Code');
+$('.donation-levels input[type=radio]').change(function() {
+        $('label').removeClass('checked');
+        $(this).parent().siblings('label').addClass('checked');
+    });  
+$('.donation-level-input-container label').click(function() {
+		$('label').removeClass('checked');
+		$(this).addClass('checked');
+	});
+	$('.donation-level-input-container:last > label').click(function() {
+        $(this).siblings().find('input[type=text]').focus();
+      
+	});
+	$('.donation-level-user-entered input').focus(function() {
+		$('label').removeClass('checked')
+		$(this).parent().siblings('label').addClass('checked');		
+	});
+});
+</script>
