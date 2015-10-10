@@ -252,12 +252,10 @@ select {
     color:#8D8D8D !important;
     border:#c5c2bd 1px solid !important;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f1f1ef+100 */
-background: rgb(255,255,255); /* Old browsers */
-background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,239,1) 100%); /* FF3.6+ */
+background: rgb(255,255,255); /* Old browsers */ /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(241,241,239,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* IE10+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(241,241,239,1) 100%);
 background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(241,241,239,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f1ef',GradientType=0 ); /* IE6-9 */
 }
@@ -345,30 +343,3 @@ background-size:contain;
 vertical-align:super;
 margin-left:10px;
 }
-</style>
-<script type="text/javascript">
-$(document).ready(function() {
-$('input[type=radio]:checked').parent().siblings('label').addClass('checked');
-$('#level_flexibleduration').val('M:0');
-$('.donation-level-user-entered input').attr('placeholder', 'Other');
-$('label[for=responsive_payment_typecc_numbername]').text('Card Number');
-$('label[for=responsive_payment_typecc_exp_date_MONTH] span').text('Exp. Date');
-$('label[for=responsive_payment_typecc_cvvname] span').text('Security Code');
-$('.donation-levels input[type=radio]').change(function() {
-        $('label').removeClass('checked');
-        $(this).parent().siblings('label').addClass('checked');
-    });  
-$('.donation-level-input-container label').click(function() {
-		$('label').removeClass('checked');
-		$(this).addClass('checked');
-	});
-	$('.donation-level-input-container:last > label').click(function() {
-        $(this).siblings().find('input[type=text]').focus();
-      
-	});
-	$('.donation-level-user-entered input').focus(function() {
-		$('label').removeClass('checked')
-		$(this).parent().siblings('label').addClass('checked');		
-	});
-});
-</script>
