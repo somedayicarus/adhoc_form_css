@@ -33,22 +33,18 @@ $(document).ready(function() {
 		});
 	});
 	
+	//add hover to other input
+	$('.donation-level-user-entered input').hover(function(){
+		$(this).css({
+			'border': '1px solid #ed2432'
+		});
+		
+	}, function() {
+		$(this).css({
+			border: ''
+		});
+	});
 	
 });
 
-
-	//add hover styles to donation amount labels
-	//$('.donation-level-input-container label')
-		//.on('mouseenter', function() {
-			//$(this).css({
-				//'color': '#ed2432',
-			//	'border': '1px #ed2432 solid'
-			//});
-    //	})
-		//.on('mouseleave', function() {
-		//	$(this).css({
-				//'color': '',
-				//'border': ''
-			//});
-		//});
 	
