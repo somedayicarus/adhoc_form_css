@@ -408,6 +408,8 @@ div.responsive span.field-required {
 
     .HelpLink {
         position:initial;
+		display:block;
+		margin-left:10px;
     }
     .cvv-input {
         position:initial;
