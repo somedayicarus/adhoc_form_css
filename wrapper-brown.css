@@ -1,6 +1,8 @@
 /* header */
 #header-logo {
 margin-left:40px;
+width:100%;
+max-width:410px;
 }
 
 .banner-img-container {
