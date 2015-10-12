@@ -387,7 +387,7 @@ div.responsive span.field-required {
     }
     .button-container {
         width:100% !important;
-        padding-left:0;
+        padding-left:0 !important;
     }
     div#donor_email_opt_in_Row {
         margin-left:12px;
