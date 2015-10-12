@@ -4,7 +4,8 @@ margin-left:40px;
 }
 
 .banner-img-container {
-width:600px;
+width:100%;
+	max-width:510px;
 margin:0 auto;
 }
 .banner {
@@ -16,7 +17,8 @@ margin-top:20px;
 .banner img {
 text-align:center;
 margin:0 auto;
-width:500px;
+width:100%;
+	max-width:500px;
 }
 
 /* footer */
