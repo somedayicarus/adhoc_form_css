@@ -200,10 +200,6 @@ fieldset.cardExpGroup {
 	margin-left:10px;
 }
 
-.cvv-input {
-	position:relative;
-	top:-15px;
-}
 
 h2:first-of-type {
 	margin-bottom:25px;
@@ -287,8 +283,6 @@ div.date-input-container {
 
 select#responsive_payment_typecc_exp_date_MONTH, select#responsive_payment_typecc_exp_date_YEAR {
 	width:49% !important;
-	position:relative;
-	top:-13px;
 }
 
 label.FormLabel {
