@@ -324,3 +324,96 @@ div.responsive span.field-required {
 	vertical-align:super;
 	margin-left:10px;
 }
+
+
+/* media queries */ 
+
+@media(max-width:600px) {
+    form {
+        width:100%;
+    }
+    div.responsive {
+        width:initial;
+    }
+    .donation-form-container {
+        width: 100% !important;
+    }
+    input[type="radio"] + label {
+        display:block;
+        width:100% !important;
+    }
+    div.donation-level-container {
+        display:block;
+
+    }
+    .form-donation-level div {
+        width:100% !important;
+   
+    }
+    .donation-level-label-input-container + label {
+        width:100% !important;
+    }
+    input[type='text'], select, div.date-input-container {
+        display:block !important;
+        width:100% !important;
+        margin-left:0 !important;
+    }
+    .donation-level-user-entered input {
+        left:0;
+        margin-top:-10px;
+        margin-bottom:20px
+    }
+    select#billing_addr_state {
+        margin-left:0 !important;
+    }
+    label {
+        width:75% !important;
+        margin-top:0;
+    }
+    div.form-row div.form-content>input[type="text"] {
+        width:100% !important;
+        margin-left:0 !important;
+    }
+    input[type="radio"] {
+        height:2px !important;
+        margin:0;
+    }
+    legend {
+        margin-bottom:0;
+    }
+    .button-container {
+        width:100% !important;
+        padding-left:0;
+    }
+    div#donor_email_opt_in_Row {
+        margin-left:12px;
+    }
+    select#responsive_payment_typecc_exp_date_MONTH, select#responsive_payment_typecc_exp_date_YEAR {
+        position:initial;
+    }
+    fieldset.cardExpGroup {
+        margin-left:0;
+    }
+  select#responsive_payment_typecc_exp_date_MONTH {
+      float:left;
+  }
+    div.payment-field-container #responsive_payment_typecc_cvv_row input {
+        position:initial;
+        width:100% !important;
+    }
+
+    .HelpLink {
+        position:initial;
+    }
+    .cvv-input {
+        position:initial;
+        margin-top:10px !important;
+    }
+    .donation-level-input-container>label {
+        position:relative;
+
+    }
+    div.responsive div.form-content {
+        margin-bottom:-5px;
+    }
+}
