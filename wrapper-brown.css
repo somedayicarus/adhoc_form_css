@@ -1,0 +1,49 @@
+/* header */
+#header-logo {
+margin-left:40px;
+}
+
+.banner-img-container {
+width:600px;
+margin:0 auto;
+}
+.banner {
+width:100%;
+background-color:#000;
+height:260px;
+margin-top:20px;
+}
+.banner img {
+text-align:center;
+margin:0 auto;
+width:500px;
+}
+
+/* footer */
+
+.footer {
+width:100%;
+border-top:solid 6px #dc2c30;
+color:#e2dbc4;
+background-color:#342e27;
+margin-top:65px;
+}
+
+.footer-row {
+width:75%;
+margin:20px auto 0 auto;
+padding:60px 0 40px 0;
+}
+
+.footer-headline {
+font-size: 28px;
+color:#ded7ad;
+}
+
+.footer a {
+color:#dc2c30;
+}
+
+#give-with-trust {
+	padding:0;
+}
