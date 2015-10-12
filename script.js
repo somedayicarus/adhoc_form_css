@@ -20,19 +20,35 @@ $(document).ready(function() {
     });
 	
 	//add hover styles to donation amount labels
-	$('.donation-level-input-container label')
-		.on('mouseenter', function() {
-			$(this).css({
-				'color': '#ed2432',
-				'border': '1px #ed2432 solid'
-			});
-    	})
-		.on('mouseleave', function() {
-			$(this).css({
-				'color': '',
-				'border': ''
-			});
+	$('.donation-level-input-container label').hover(function() {
+		$(this).css({
+			'color': '#ed2432',
+			'border': '1px solid #ed2432'
 		});
+		
+	}, function() {
+		$(this).css({
+			'color': '',
+			border: ''
+		});
+	});
 	
 	
 });
+
+
+	//add hover styles to donation amount labels
+	//$('.donation-level-input-container label')
+		//.on('mouseenter', function() {
+			//$(this).css({
+				//'color': '#ed2432',
+			//	'border': '1px #ed2432 solid'
+			//});
+    //	})
+		//.on('mouseleave', function() {
+		//	$(this).css({
+				//'color': '',
+				//'border': ''
+			//});
+		//});
+	
