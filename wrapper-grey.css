@@ -1,11 +1,13 @@
 /* header */
 #header-logo {
 margin-left:40px;
+width:100%;
+max-width:410px;
 }
 
 .banner-img-container {
 width:100%;
-	max-width:510px;
+max-width:510px;
 margin:0 auto;
 }
 .banner {
