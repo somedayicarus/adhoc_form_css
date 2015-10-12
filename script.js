@@ -32,4 +32,4 @@ $(document).ready(function() {
 		//$('label').removeClass('checked')
 		//$(this).parent().siblings('label').addClass('checked');		
 	//});
-//});
+});
