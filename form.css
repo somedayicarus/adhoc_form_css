@@ -331,7 +331,7 @@ div.responsive span.field-required {
 
 @media(max-width:600px) {
 	#header-logo {
-		margin-left:0;
+		margin-left:0 !important;
 	}
     form {
         width:100%;
