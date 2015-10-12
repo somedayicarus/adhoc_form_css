@@ -17,7 +17,7 @@ $(document).ready(function() {
 	$('.donation-levels input[type=radio]').change(function() {
 		$('label').removeClass('checked');
         $(this).parent().siblings('label').addClass('checked');
-    }); 
+    });
 	
 	//
 	//$('.donation-level-input-container label').click(function() {
