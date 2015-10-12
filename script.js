@@ -19,17 +19,13 @@ $(document).ready(function() {
         $(this).parent().siblings('label').addClass('checked');
     });
 	
-	//
-	//$('.donation-level-input-container label').click(function() {
-		//$('label').removeClass('checked');
-		//$(this).addClass('checked');
-	//});
-	//$('.donation-level-input-container:last > label').click(function() {
-        //$(this).siblings().find('input[type=text]').focus();
-      
-	//});
-	//$('.donation-level-user-entered input').focus(function() {
-		//$('label').removeClass('checked')
-		//$(this).parent().siblings('label').addClass('checked');		
-	//});
+	//add hover styles to donation amount labels
+	$('.donation-level-input-container label').hover(function() {
+		$(this).css({
+			'color': '#ed2432',
+			'border': '1px #ed2432 solid'
+		});
+    });
+	
+	
 });
