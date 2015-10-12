@@ -420,4 +420,8 @@ div.responsive span.field-required {
     div.responsive div.form-content {
         margin-bottom:-5px;
     }
+	
+	div.donation-form-container.responsive {
+		padding:10px !important;
+	}
 }
