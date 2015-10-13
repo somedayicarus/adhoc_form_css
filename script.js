@@ -33,12 +33,6 @@ $(document).ready(function() {
 		});
 	});
 	
-	//add hover to other input
-	$('.donation-level-user-entered input').hover(function(){
-		$(this).css('border', '1px solid #ed2432');
-	}, function() {
-		$(this).css('border', '');
-	});
 	
 });
 
