@@ -12,6 +12,7 @@ h1 {
 	font-family: trajan-pro-3, 'Trajan Pro', 'Georgia', 'Times New Roman', serif;
 	margin-bottom: 17px;
 	margin-top: 0;
+	padding-bottom: 40px;
 }
 h2, h3 {
     font-size: 16px;
@@ -317,6 +318,11 @@ div.responsive span.field-required {
 
 
 /* media queries */ 
+@media(max-width:998px) {
+	form {
+		padding-right:0;
+	}
+}
 
 @media(max-width:600px) {
 	#header-logo {
