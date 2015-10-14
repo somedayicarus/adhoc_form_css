@@ -320,7 +320,7 @@ div.responsive span.field-required {
 /* media queries */ 
 @media(max-width:998px) {
 	#body {
-		padding-left:0;
+		padding-left:0 !important;
 	}
 	form {
 		margin: 0 auto;
