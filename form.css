@@ -341,8 +341,14 @@ div.responsive span.field-required {
 	#header-logo {
 		margin-left:0 !important;
 	}
+	h1 {
+		border-top:1px solid #d5d5d5;
+		padding-top: 30px;
+		padding-bottom:30px;
+	}
     form {
         width:100%;
+		padding:30px 10px;
     }
     div.responsive {
         width:initial;
