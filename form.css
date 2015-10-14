@@ -320,11 +320,23 @@ div.responsive span.field-required {
 /* media queries */ 
 @media(max-width:998px) {
 	#body {
-		padding-right:0;
+		padding-left:0;
+	}
+	form {
+		margin: 0 auto;
+	}
+}
+
+@media(max-width:768px) {
+	main#body {
+		padding:0;
 	}
 }
 
 @media(max-width:600px) {
+	main#body {
+		padding:0;
+	}
 	#header-logo {
 		margin-left:0 !important;
 	}
