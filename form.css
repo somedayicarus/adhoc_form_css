@@ -327,11 +327,6 @@ div.responsive span.field-required {
 	}
 }
 
-@media(max-width:768px) {
-	main#body {
-		padding:0;
-	}
-}
 
 @media(max-width:600px) {
 	main#body {
