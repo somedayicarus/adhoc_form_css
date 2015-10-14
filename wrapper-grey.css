@@ -54,3 +54,9 @@ color:#dc2c30;
 #give-with-trust {
 	padding:0;
 }
+
+@media(max-width:600px) {
+	.footer-row {
+		width:95%;
+	}
+}
