@@ -1,5 +1,14 @@
 /* header */
-
+#body {
+	background:#fff url('../images/content/pagebuilder/background-image.jpg') no-repeat center center fixed;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	height:auto;
+	padding:28px 0px 38px 184px;
+	width:100%;
+}
 .banner-img-container {
 width:100%;
 max-width:510px;
