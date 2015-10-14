@@ -349,6 +349,10 @@ div.responsive span.field-required {
     form {
         width:100%;
 		padding:30px 10px;
+		border-radius:0;
+		-webkit-border-radius:0;
+		-moz-border-radius:0;
+		-o-border-radius:0;
     }
     div.responsive {
         width:initial;
