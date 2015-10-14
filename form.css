@@ -1,3 +1,11 @@
+div.donation-form-container.responsive {
+	paddng:0;
+	background:inherit;
+	border-radius:inherit;
+	border:inherit;
+	width:auto;
+}
+
 h1 {
 	font-size:28px;
 	color: #ed2432;
@@ -164,15 +172,6 @@ label[for="donor_email_opt_inname"] {
 
 label[for="responsive_payment_typecc_exp_date_YEAR"], div#responsive_payment_typecc_type_row {
 	display:none;
-}
-
-
-
-.donation-form-container {
-    width:600px !important;
-    border:none !important;
-    margin:0 !important;
-    background: #fff !important;
 }
 
 #payment_cc_container>h3 {
