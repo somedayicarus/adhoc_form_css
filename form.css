@@ -1,5 +1,5 @@
 div.donation-form-container.responsive {
-	paddng:0;
+	padding:0;
 	background:inherit;
 	border-radius:inherit;
 	border:inherit;
@@ -7,9 +7,11 @@ div.donation-form-container.responsive {
 }
 
 h1 {
-	font-size:28px;
+	font-size:24px;
 	color: #ed2432;
-	font-family: trajan-pro-3, 'Trajan Pro', 'Times New Roman', serif;
+	font-family: trajan-pro-3, 'Trajan Pro', 'Georgia', 'Times New Roman', serif;
+	margin-bottom: 17px;
+	margin-top: 0;
 }
 h2, h3 {
     font-size: 16px;
