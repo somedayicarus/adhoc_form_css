@@ -123,6 +123,10 @@ main#body {padding:0px;}
 
 }
 
+@media(max-width:600px) {
+	.thankyou-container {margin:-10px;}
+}
+
 @media (max-width:480px){
 .footer-module {margin-bottom:40px; padding:0px 10px;}
 .mission-list-last a.privacy-policy-link {color:#d7d195;}
