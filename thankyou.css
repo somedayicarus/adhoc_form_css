@@ -1,14 +1,14 @@
 #receiptContainer {border: 1px solid #ccc; border-radius: 10px; padding: 10px; margin: 0 auto 90px; max-width:500px; background-color:#fff;}
 #receiptContainer a {color:#333;}
 span.title {width:100px; font-weight:bold; display:inline-block;}
-#printIcon {float: right; background-image: url(../images/content/pagebuilder/print.png); height: 23px; width: 23px;}
+#printIcon {float: right; background-image: url('https://secure3.convio.net/tsan/images/content/pagebuilder/print.png'); height: 23px; width: 23px;}
 
 main#body {padding-bottom:0px;}
 main#body img {max-width:100%;}
 
 #transReceipt {background-color:#F1F1F1; margin:0px;}
 
-#transPreFoot .col-md-12 {background-image:url('../images/content/pagebuilder/transPreFood_bg.png');
+#transPreFoot .col-md-12 {background-image:url('https://secure3.convio.net/tsan/images/content/pagebuilder/transPreFood_bg.png');
 background-repeat:no-repeat; background-size: cover; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-position: center; background-color: #fff; display: inline-block; width: 100%; padding:200px 0px; float:left;}
 #transPreFoot > div > div > div > div {padding: 0px 54px;}
 #transPreFoot > div > div > div > div > h3 {font-weight:bold; color:#fff;}
@@ -32,7 +32,7 @@ background-repeat:no-repeat; background-size: cover; -webkit-background-size: co
 
 #transAbout .row .col-md-6 p img {margin:30px 0px;}
 
-#tyBanner {margin:0px; text-align:center; color:#fff; padding-bottom:90px; padding-top:230px; background:#fff url('../images/content/pagebuilder/thank_you_top_bg_new.jpg') repeat-y center center; background-size:cover;}
+#tyBanner {margin:0px; text-align:center; color:#fff; padding-bottom:90px; padding-top:230px; background:#fff url('https://secure3.convio.net/tsan/images/content/pagebuilder/thank_you_top_bg_new.jpg') repeat-y center center; background-size:cover;}
 
 #tyBanner h1 {font-family:trajan-pro-3, "Trajan Pro", "Georgia", "Times New Roman", serif; font-size:47.3px; margin-bottom:45px;}
 
@@ -77,9 +77,6 @@ background-size:992px auto;
 
 #tyBanner {background:#fff url('../images/content/pagebuilder/tablet_bg.png') no-repeat center 0;
 background-size:992px auto;
--webkit-background-size:992px auto;
--moz-background-size:992px auto;
--o-background-size:992px auto;
 background-size:cover;}
 
 li.verisign-button img {max-width:100%;}
@@ -145,9 +142,6 @@ background-size:480px auto;
 #tyBanner {padding-top:0px;
 background:#fff url('../images/content/pagebuilder/mobile_bg.png') no-repeat center 0;
 background-size:480px auto;
--webkit-background-size:480px auto;
--moz-background-size:480px auto;
--o-background-size:480px auto;
 background-size:cover;}
 #tyBanner h1 {margin-bottom:245px; font-size:37.3px;}
 
