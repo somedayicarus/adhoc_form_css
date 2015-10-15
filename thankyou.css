@@ -1,3 +1,6 @@
+.thankyou-container {
+	margin:-28px 0px -39px -184px;
+}
 #receiptContainer {border: 1px solid #ccc; border-radius: 10px; padding: 10px; margin: 0 auto 90px; max-width:500px; background-color:#fff;}
 #receiptContainer a {color:#333;}
 span.title {width:100px; font-weight:bold; display:inline-block;}
