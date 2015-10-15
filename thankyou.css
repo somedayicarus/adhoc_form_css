@@ -75,7 +75,7 @@ background-size:992px auto;
 -moz-background-size:992px auto;
 -o-background-size:992px auto;} */
 
-#tyBanner {background:#fff url('../images/content/pagebuilder/tablet_bg.png') no-repeat center 0;
+#tyBanner {background:#fff url('https://secure3.convio.net/tsan/images/content/pagebuilder/tablet_bg.png') no-repeat center 0;
 background-size:992px auto;
 background-size:cover;}
 
@@ -140,7 +140,7 @@ background-size:480px auto;
 #body .container .row .col-md-6 {padding:70px 0px;}
 #receiptContainer {max-width:350px;}
 #tyBanner {padding-top:0px;
-background:#fff url('../images/content/pagebuilder/mobile_bg.png') no-repeat center 0;
+background:#fff url('https://secure3.convio.net/tsan/images/content/pagebuilder/mobile_bg.png') no-repeat center 0;
 background-size:480px auto;
 background-size:cover;}
 #tyBanner h1 {margin-bottom:245px; font-size:37.3px;}
