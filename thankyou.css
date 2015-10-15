@@ -1,6 +1,4 @@
-.thankyou-container {
-	margin:-28px 0px -39px -184px;
-}
+.thankyou-container {margin:-28px 0px 0px -184px;}
 #receiptContainer {border: 1px solid #ccc; border-radius: 10px; padding: 10px; margin: 0 auto 90px; max-width:500px; background-color:#fff;}
 #receiptContainer a {color:#333;}
 span.title {width:100px; font-weight:bold; display:inline-block;}
@@ -37,9 +35,9 @@ background-repeat:no-repeat; background-size: cover; -webkit-background-size: co
 
 #tyBanner {margin:0px; text-align:center; color:#fff; padding-bottom:90px; padding-top:230px; background:#fff url('https://secure3.convio.net/tsan/images/content/pagebuilder/thank_you_top_bg_new.jpg') repeat-y center center; background-size:cover;}
 
-#tyBanner h1 {font-family:trajan-pro-3, "Trajan Pro", "Georgia", "Times New Roman", serif; font-size:47.3px; margin-bottom:45px;}
+#tyBanner h1 {font-family:trajan-pro-3, "Trajan Pro", "Georgia", "Times New Roman", serif; font-size:47.3px; margin-bottom:45px; color:#fff;}
 
-.trans.rounded {color: #fff; font-size: 15pt; border: 2px solid; padding: 10px 0px; margin-bottom: 45px; display: inline-block; border-radius:52px; width:300px; text-decoration:none;}
+.trans.rounded {color: #fff !important; font-size: 15pt; border: 2px solid; padding: 10px 0px; margin-bottom: 45px; display: inline-block; border-radius:52px; width:300px; text-decoration:none;}
 
 #tyBanner > div > div:nth-child(3) > div .trans.rounded {margin-bottom:0px;}
 
