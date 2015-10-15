@@ -1,10 +1,9 @@
-.thankyou-container {margin:-28px 0px 0px -184px;}
+.thankyou-container {margin:-28px 0px -38px -184px;}
 #receiptContainer {border: 1px solid #ccc; border-radius: 10px; padding: 10px; margin: 0 auto 90px; max-width:500px; background-color:#fff;}
 #receiptContainer a {color:#333;}
 span.title {width:100px; font-weight:bold; display:inline-block;}
 #printIcon {float: right; background-image: url('https://secure3.convio.net/tsan/images/content/pagebuilder/print.png'); height: 23px; width: 23px;}
 
-main#body {padding-bottom:0px;}
 main#body img {max-width:100%;}
 
 #transReceipt {background-color:#F1F1F1; margin:0px;}
