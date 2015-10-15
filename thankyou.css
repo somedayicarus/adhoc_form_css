@@ -113,6 +113,7 @@ main#body {padding:28px 50px 38px;}
 
 main#body {padding:0px;}
 #tyBanner.row, .col-md-6, .col-md-12 > .row, #transReceipt.row, #transAbout > .row, #transPreFoot .row, #transReceipt.row {margin-left:0px; margin-right:0px;}
+#tyBanner h1 {border-top:none;}	
 #transAbout.container, .col-md-12, .col-md-6 {padding-right:0px; padding-left:0px;}
 #transAbout .col-md-6 {text-align:center;}
 #transPreFoot {padding:0px;}
